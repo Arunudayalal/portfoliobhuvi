@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Bilbo Swash Caps", cursive;
+
+}
+.main{
+    width: 100%;
+    height: 800px;
+    position: relative;
+
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("https://thumbs.dreamstime.com/b/cricket-pitch-top-view-direct-layout-set-up-grass-40240266.jpg");
+    background-position:right;
+    background-repeat: no-repeat;
+    margin: 0;
+    
+   
+}
+
+#logo{
+    width:440px ;
+    height: 200px;
+
+}
+.list{
+    display: inline;
+    list-style: none;
+    padding-left: 40px;
+    
+    font-size: xx-large;
+    
+
+}
+.items{
+    text-decoration: none;
+    font-weight: bolder;
+    margin:30px;
+    color: darkred;
+}
+.items:hover{
+    color: black;
+    text-shadow: 2px 4px 6px yellowgreen;
+}
+.about_main{
+    display: flex;
+    margin-top: 2%;
+}
+
+h1{
+    background-color: wheat;
+    text-align: center;
+    margin-top:10px ;
+    font-size: xx-large;
+    font-weight: bolder;
+   
+
+
+}
+#bhuvi{
+    width:300 ;
+    height: 300;
+}
+.para_about{
+    justify-content: center;
+    font-size: x-large;
+}
+.wickets{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 2%;
+}
+.bowling img{
+    width: 400px;
+    height: 300px;
+}
+#topimg{
+
+width:300px ;
+height:200px ;
+}
+.topper{
+    width: 400px;
+    height: 300px;
+    border-style: inset;
+    border-color: black;
+    margin-top: 1%;
+    text-align: center;
+}
+.top{
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+
+.cups{
+    margin-top: 1%;
+    width: 100%;
+    
+}
+#careerimg{
+    width: 100%;
+}
+.social{
+    display: flex;
+    margin-top: 1%;
+    justify-content: space-evenly;
+}
+.ssi{
+    width: 100px;
+    height: 100px;
+   
+}
